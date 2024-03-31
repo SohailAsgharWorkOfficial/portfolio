@@ -335,7 +335,7 @@ nav .oo{
 
     }
     .header-text h1{
-        font-size:70px;
+        font-size:30px;
         margin-top:20px;
     }
     .header-text{
@@ -344,7 +344,7 @@ nav .oo{
     }
     nav .oo{
         display: block;
-        font-size: 65px;
+        font-size: 25px;
     }
     nav ul{
         background-color:rgba(70, 130, 180, 0.5);
@@ -371,7 +371,7 @@ nav .oo{
 
     }
     .sub-title{
-        font-size: 80px;
+        font-size: 40px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -381,17 +381,17 @@ nav .oo{
         margin-bottom: 30px;
     }
     .about-col-2{
-        font-size: 64px;
+        font-size: 14px;
     }
     .tab-links{
-        font-size: 66px;
+        font-size: 16px;
         margin-right:20px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
     .copyright{
-        font-size: 64px;
+        font-size: 14px;
     }
     
 }
