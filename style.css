@@ -329,22 +329,22 @@ nav .oo{
 
 
 /*--------------------------------------for Mobile Phone------------------------------*/
-@media only screen and (max-width:1100px){
+@media only screen and (max-width:1300px){
     #header{
         background-image: url(images1/bgphone.jpg);
 
     }
     .header-text h1{
-        font-size:30px;
+        font-size:35px;
         margin-top:20px;
     }
     .header-text{
         margin-top:20%;
-        font-size:15px;
+        font-size: 35px;
     }
     nav .oo{
         display: block;
-        font-size: 25px;
+        font-size: 45px;
     }
     nav ul{
         background-color:rgba(70, 130, 180, 0.5);
@@ -371,7 +371,7 @@ nav .oo{
 
     }
     .sub-title{
-        font-size: 40px;
+        font-size: 50px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -381,7 +381,7 @@ nav .oo{
         margin-bottom: 30px;
     }
     .about-col-2{
-        font-size: 14px;
+        font-size: 19px;
     }
     .tab-links{
         font-size: 16px;
