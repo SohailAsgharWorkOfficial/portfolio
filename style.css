@@ -4,6 +4,9 @@
     font-family:'Poppins',sans-serif;
     box-sizing:border-box;
 }
+#projects{
+    font-size: 8px;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -393,6 +396,8 @@ nav .oo{
     .copyright{
         font-size: 14px;
     }
+    
+    
     
 }
 #msg{
