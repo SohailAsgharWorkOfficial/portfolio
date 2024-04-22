@@ -157,6 +157,7 @@ nav ul li a:hover::after {
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .tab-links2::after {
