@@ -1,8 +1,9 @@
 <html>
 
 <head>
-    <title>SA Portfolio</title>
+    <title>Portfolio-Sohail</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images1/logo.png" type="images/icon">
     <script src="https://kit.fontawesome.com/984e4357af.js" crossorigin="anonymous"></script>
 
 </head>
@@ -45,11 +46,11 @@
                         intuitive interfaces. Let's collaborate and build something amazing together!</p>
                     <div class="tab-titles">
 
-                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links " onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
-                        <p class="tab-links" onclick="opentab('awards')">Awards</p>
+                        <p class="tab-links active-link" onclick="opentab('education', event)">Education</p>
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                        <p class="tab-links" onclick="opentab('skills', event)">Skills</p>
+                        <p class="tab-links" onclick="opentab('certifications', event)">Certifications</p> 
+                        <p class="tab-links" onclick="opentab('awards', event)">Awards</p>
 
                     </div>
 
@@ -134,91 +135,304 @@
                     <h2>Web Design</h2>
                     <p>Elevate your brand with our expert web design services. We create visually stunning and
                         user-friendly websites tailored to your unique needs.</p>
-                    <a href="#">learn more</a>
+                    <a target="_blank" href="#">Explore</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-python"></i>
                     <h2>Python Development</h2>
                     <p>Unlock the power of Python with our skilled developers. From robust backend solutions to
                         innovative applications, we bring your ideas to life with expertise and efficiency.</p>
-                    <a href="#">learn more</a>
+                    <a target="_blank" href="#">Explore</a>
                 </div>
                 <div>
                     <i class="fa-brands fa-codepen"></i>
                     <h2>Problem Solving</h2>
                     <p>Tackle challenges head-on with our problem-solving expertise. We provide strategic solutions to
                         navigate complexities and optimize outcomes for your business.</p>
-                    <a href="#">learn more</a>
+                    <a target="_blank" href="#">Explore</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-users"></i>
+                    <h2>Web Design</h2>
+                    <p>Elevate your brand with our expert web design services. We create visually stunning and
+                        user-friendly websites tailored to your unique needs.</p>
+                    <a target="_blank" href="#">Explore</a>
                 </div>
 
             </div>
+
+
+            <div class="services-list">
+              
+                <div>
+                    <i class="fa-solid fa-cog"></i>
+                    <h2>Python Development</h2>
+                    <p>Unlock the power of Python with our skilled developers. From robust backend solutions to
+                        innovative applications, we bring your ideas to life with expertise and efficiency.</p>
+                    <a target="_blank" href="#">Explore</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Tackle challenges head-on with our problem-solving expertise. We provide strategic solutions to
+                        navigate complexities and optimize outcomes for your business.</p>
+                    <a target="_blank" href="#">Explore</a>
+                </div>
+
+            </div>
+
+
+
         </div>
     </div>
     
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Projects</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images1/pro3.png">
-                    <div class="layer">
-                        <h3>Khaoo</h3>
-                        <p id="projects">Khaoo is a food ordering app made in next.js, GraphQl database is used, and for the login/signup clerk authentication is used.</p>
-                        <a href="https://khaoo.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images1/pro1.png">
-                    <div class="layer">
-                        <h3>Tic Tac Toe Game</h3>
+            <div class="tab-titles">
 
-                        <p id="projects">My Tic Tac Toe game promises hours of entertainment. Built using React, it showcases my
-                            proficiency in front-end development and my dedication to creating enjoyable, user-centric
-                            experiences. Try it out and see who will emerge victorious in this classic battle of X's and
-                            O's!"</p>
-                        <a href="https://tictactoegame-ruddy.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images1/pro2.png">
-                    <div class="layer">
-                        <h3>Github Profile Finder App</h3>
-                        <p id="projects">GitHub Profile Finder is a React.js application that allows users to search for GitHub
-                            profiles and view detailed information about them using the GitHub API.</p>
-                        <a href="https://githubprofilefinderapp.vercel.app/"><i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    </div>
-                </div>
-               
-                <div class="work">
-                    <img src="images1/pro4.png">
-                    <div class="layer">
-                        <h3>Django CRUD Opertions</h3>
-                        <p id="projects">Our Django project implements full CRUD (Create, Read, Update, Delete) functionality, allowing users to seamlessly create, view, update, and delete records in our database. Leveraging Django's robust framework, our application provides an intuitive user interface for managing data, ensuring a smooth and efficient user experience..</p>
-                        <a href="https://sohailasghar.pythonanywhere.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
+                <p class="tab-links2 active-link" onclick="opentab2('web')">Web </p>
+                <p class="tab-links2" onclick="opentab2('python')">Python</p>
+                <p class="tab-links2" onclick="opentab2('django')">Django</p>
+                <p class="tab-links2" onclick="opentab2('reactjs')">ReactJS</p>
+                <p class="tab-links2" onclick="opentab2('nextjs')">NextJS</p>
+                <p class="tab-links2" onclick="opentab2('ml')">AI|ML</p>
             </div>
 
-            <a href="#" class="btn">See more</a> 
+            <div class="tab-contents2 active-tab" id="web">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images1/proj_gym.png">
+                                <div class="layer">
+                                    <h3>Workout Station Gym Web</h3>
+                                    <p id="projects">Workout Station Opposite to Limelight Store, Jadoon Plaza Phase 2, Abbottabad, Pakistan.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/Gym-WorkoutStation-Web/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="images1/proj_livelangtranslator.png">
+                                <div class="layer">
+                                    <h3>Live Language Translator</h3>
+                                    <p id="projects">A real-time language translator that allows users to translate text or speech instantly between multiple languages, providing a seamless communication experience.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/LiveLanguageTranslator.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                            <div class="work">
+                                <img src="images1/proj_currencyconverter.png">
+                                <div class="layer">
+                                    <h3>Currency Converter</h3>
+                                    <p id="projects">A live currency converter web app that enables users to quickly convert between different currencies, providing up-to-date exchange rates and a user-friendly interface for easy navigation.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/currencyconverterwebapp.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                           
+                            <div class="work">
+                                <img src="images1/proj_texteditor.png">
+                                <div class="layer">
+                                    <h3>Text Editor</h3>
+                                    <p id="projects">A text editor is a software application used for creating and editing text files. It provides a user-friendly interface for typing, editing, and formatting text.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/TextEditor.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images1/proj_calculator.png">
+                                <div class="layer">
+                                    <h3>Live Calculator</h3>
+                                    <p id="projects">
+                                        This live calculator allows users to perform calculations directly on a webpage without the need to reload the page. It typically uses JavaScript to update the result dynamically as the user inputs values or selects options.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/Calculatorweb.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                            <div class="work">
+                                <img src="images1/proj_autocare.png">
+                                <div class="layer">
+                                    <h3>AutoCare Web</h3>
+                                    <p id="projects">
+                                        AutoCare Web is a sleek and professional website template designed for auto service businesses.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/LandingPageAutoCareWeb.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                            <div class="work">
+                                <img src="images1/proj_austlms.png">
+                                <div class="layer">
+                                    <h3>LMS AUST</h3>
+                                    <p id="projects">
+                                        AUST LMS is a prototype, made with html, css, and fo the database MySql database is used, with xampp server.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/AUSTPortalPrototype/admin.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                            <div class="work">
+                                <img src="images1/proj_countdowntimer.png">
+                                <div class="layer">
+                                    <h3>Countdown Timer Web</h3>
+                                    <p id="projects">
+                                        It is a website which will assist you to set a countdown timer for various tasks, it is only responsive for web.</p>
+                                    <a target="_blank" href="https://sohailasgharworkofficial.github.io/countdowntimerweb.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div> 
+                            </div>
+                        </div>
+                    </li>
+                   </ul>
+            </div>
 
-        </div>
-    </div>
+            <div class="tab-contents2" id="python">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                              
+                            </div>
+                        </div>
+            
+                    </li>
+                   </ul>
+            </div>
+            <div class="tab-contents2" id="django">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images1/pro4.png">
+                                <div class="layer">
+                                    <h3>Django CRUD Opertions</h3>
+                                    <p id="projects">Our Django project implements full CRUD (Create, Read, Update, Delete) functionality, allowing users to seamlessly create, view, update, and delete records in our database. Leveraging Django's robust framework, our application provides an intuitive user interface for managing data, ensuring a smooth and efficient user experience..</p>
+                                    <a target="_blank" href="https://sohailasghar.pythonanywhere.com/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                              
+                            </div>
+                        </div>
+            
+                    </li>
+                   </ul>
+            </div>
+            <div class="tab-contents2" id="reactjs">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images1/pro1.png">
+                                <div class="layer">
+                                    <h3>Tic Tac Toe Game</h3>
+            
+                                    <p id="projects">My Tic Tac Toe game promises hours of entertainment. Built using React, it showcases my
+                                        proficiency in front-end development and my dedication to creating enjoyable, user-centric
+                                        experiences. Try it out and see who will emerge victorious in this classic battle of X's and
+                                        O's!"</p>
+                                    <a target="_blank" href="https://tictactoegame-ruddy.vercel.app/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="images1/pro2.png">
+                                <div class="layer">
+                                    <h3>Github Profile Finder App</h3>
+                                    <p id="projects">GitHub Profile Finder is a React.js application that allows users to search for GitHub
+                                        profiles and view detailed information about them using the GitHub API.</p>
+                                    <a target="_blank" href="https://githubprofilefinderapp.vercel.app/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                              
+                            </div>
+                        </div>
+            
+                    </li>
+                   </ul>
+            </div>
+            <div class="tab-contents2" id="nextjs">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="images1/pro3.png">
+                                <div class="layer">
+                                    <h3>Khaoo</h3>
+                                    <p id="projects">Khaoo is a food ordering app made in next.js, GraphQl database is used, and for the login/signup clerk authentication is used.</p>
+                                    <a target="_blank" href="https://khaoo.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                              
+                            </div>
+                        </div>
+            
+                    </li>
+                   </ul>
+            </div>
+
+            <div class="tab-contents2" id="ml">
+                <ul>
+                    <li>
+                        <div class="work-list">
+                            <div class="work">
+                             
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                               
+                            </div>
+                            <div class="work">
+                              
+                            </div>
+                        </div>
+            
+                    </li>
+                   </ul>
+            </div>
+
+           
+            <br><br>
+
+
+
+           
     <!-----------contact-------------->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i> sohailasghar.workofficial@gmail.com</p>
+                    <p><i class="fas fa-envelope"></i> sohailasghar.aust@gmail.com</p>
                     <p><i class="fa-solid fa-square-phone"></i> +92 3185546469</p>
                     <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/sohail-asghar-4068a0247/"><i
+                        <a target="_blank" href="https://www.linkedin.com/in/sohail-asghar-4068a0247/"><i
                                 class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/SohailAsgharWorkOfficial"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.facebook.com/sohailasghar1120/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.upwork.com/freelancers/~01d6066aa68a3350da"><i class="fa-brands fa-upwork"></i></a>
+                        <a target="_blank" href="https://github.com/SohailAsgharWorkOfficial"><i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/sohailasghar1120/"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.upwork.com/freelancers/~01d6066aa68a3350da"><i class="fa-brands fa-upwork"></i></a>
                     </div>
                     <a href="images1/UI DESIGNER.pdf" download class="btn btn2">Download Resume</a>
                 </div>
@@ -251,6 +465,24 @@
             }
             event.currentTarget.classList.add("active-link");
             document.getElementById(tagname).classList.add("active-tab");
+            event.preventDefault();
+        }
+
+    </script>
+    <script>
+        var tablinks2 = document.getElementsByClassName("tab-links2");
+        var tabcontents2 = document.getElementsByClassName("tab-contents2");
+
+        function opentab2(tagname) {
+            for (tablink of tablinks2) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents2) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tagname).classList.add("active-tab");
+            event.preventDefault();
         }
 
     </script>
@@ -264,7 +496,7 @@
         }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwqjJIA_Uj126DLGX8NPidTzt80bYv8NFm17p7wiuFOD5UIqjlUpoTLvRFWqzHDMzVK1Q/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyQoo6dFPsToaE68j0ar3uDbrk7Cfd-QVDfBjG4dEHmiXOCGdZ7sL3EiGEbwbF86fyA/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
         form.addEventListener('submit', e => {
